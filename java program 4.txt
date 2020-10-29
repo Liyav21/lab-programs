@@ -1,0 +1,26 @@
+public class prime{
+    public static void main(String []args){
+        int a=5,prime=0;
+        for(int i=2;i<a;i++){
+            if(a%i==0)
+              {
+                  prime=prime+1;
+              }
+        }
+        if(prime==0)
+    {
+        System.out.println("The entered number is prime");
+        
+    }
+    else
+    {
+        System.out.println("The entered number is not prime");
+    }
+        
+    }
+        
+ }
+
+
+
+//OUTPUT:  The entered number is prime
