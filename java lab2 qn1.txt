@@ -1,0 +1,25 @@
+
+public class qn1
+{
+      public static void main(String[] args) {
+        int l,b,r;
+        qn1 obj = new qn1();
+        obj.Area(4,8);
+        obj.Area(2);
+         }
+    class areaofrc
+    {
+       void Area(int l,int b)
+         {
+           System.out.println("Area of rectangle is "+(l*b));
+         }
+
+        void Area(float r)
+         {
+            System.out.println("\n Area of circle is "+(3.14 * r * r));
+         }
+}
+
+
+//output:    Area of rectangle is 32
+             Area of circle is 12.56
